@@ -29,6 +29,7 @@ h2 {
     position: relative;
 }
 
+
 .menubar a {
     color: #ffffff;
     text-align: center;
@@ -36,32 +37,39 @@ h2 {
     font-size: 20px;
     font-family: "Chivo", sans-serif;
     padding: 20px 16px;
+
 }
 
 
 .image_container a{
-    margin-top: 20px;
+    display: flex;  
+    margin-left: auto;
+    margin-right: auto;
     font-size: 13pt;
     color: #000000;
     text-decoration: none;
     font-family: "Chivo", sans-serif;
     width: 180px;
+    
 }
 
 .browse_furniture_btn{
-    font-size: 50px;
-    display: inline-block;   
+    display:block;  
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Chivo", sans-serif;
+    color: #000000;
+    text-decoration: none;
+    width: 180px;
+    font-size: 30px;
     border: 4px;
     background-color: #ffffff;
     border-color: #ffffff;
-    outline: none;
     padding: 15px;
-    width: 10px;
-    text-align: center;
-    
 
 }
 
+/* hover effect, changes button color */
 .browse_furniture_btn:hover, .browse_furniture_btn:active {
     background-color: #000000;
     /* border: 2px solid; */
@@ -72,5 +80,51 @@ h2 {
     transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
 
+
+
+
+
+/* product listings page */
+
+
+.bedroom_header{
+    display: block;
+    background-image: url("images/bedroom_header.jpeg");
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.product_grid {
+    font-family: "Chivo", sans-serif;
+    padding: 16px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px 20px;
+    grid-auto-flow: row;
+    position: absolute;
+      }
+      
+ 
+
+/* .product_grid col { 
+    display: grid;
+    background-color: black;
+    margin-bottom: 16px;
+    padding: 16px;
+    size: 10vh;
+    min-height: 0;
+    min-width: 0;
+}*/
+
+.product_grid img {
+    object-fit: contain;
+
+}
 
 

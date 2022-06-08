@@ -1,0 +1,8 @@
+.header_container{
+    background-image: url("images/heroimage.jpeg");
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
