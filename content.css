@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+#footer {
+    background-color: #000000;
+    padding: 30px;
+    font-family: "Chivo", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#email form input {
+    font-family: "Chivo", sans-serif;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+#email form input:hover, form input:active {
+    background-color: white;
+    color: black;
+  }
+.icons {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* bedroom listing */
+
+#title h1{
+    background-color: #E8E8E8;
+    padding: 30px;
+    font-family: "Chivo", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#title p {
+    background-color: #E8E8E8;
+    padding-bottom: 80px;
+    font-family: "Chivo", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
