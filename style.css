@@ -15,6 +15,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     outline: 0;
+    
   }
   
   input,
@@ -209,9 +210,6 @@ body {
   }
   
   @media screen and (max-width: 460px) {
-    #photography {
-      font-size: 35px;
-    }
     header h1 {
       font-size: 18px;
     }
@@ -221,7 +219,12 @@ body {
 /* website values footer */
 .web_values {
   background-color: #e8e8e8;
-  display: flex;
+  display: inline-block;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+
   
 
 }
@@ -229,6 +232,7 @@ body {
 .web_values div {
   text-align: center;
   flex-grow: 2;
+  width: 100vw;
 
 }
 
@@ -249,6 +253,7 @@ body {
  /*footer*/
 
 .footer {
+    width: 100vw;
     background-color: #000000;
     padding: 50px;
     display: flex;

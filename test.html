@@ -1,80 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="carol-house-furniture-workspace.js"></script>
     <link rel="stylesheet" href="test.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
-    <!--Griglia alternata testo e immagine, resposive con flexbox.-->
-<section>
-    <div class="grid-flex">
-      <div class="col col-image">
-          <img src="images/giftcard.png">
-      </div>
-      <div class="col col-text">
-        <div class="Aligner-item">
-          <p>&ldquo;I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.&rdquo;
-            <cite>- Maya Angelou</cite>
-          </p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="grid-flex">
-      <div class="col col-image">
-        <img src="images/giftcard.png">
-      </div>
-      <div class="col col-text col-left">
-        <div class="Aligner-item">
-          <p>&ldquo;Simple is good.&rdquo;
-            <cite>- Jim Henson</cite>
-          </p>
-        </div>
-      </div>
-    </div>
-  
-    <div class="grid-flex">
-      <div class="col col-image" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/280406/seattle-skylight-sm.jpg);">
-        &nbsp;
-      </div>
-      <div class="col col-text">
-        <div class="Aligner-item">
-          <p>&ldquo;Everybody has a plan until they get punched in the mouth.&rdquo;
-            <cite>- Mike Tyson</cite>
-          </p>
-        </div>
-      </div>
-    </div>
-  
-    <div class="grid-flex">
-      <div class="col col-image" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/280406/madison-overture.jpg);">
-        &nbsp;
-      </div>
-      <div class="col col-text col-left">
-        <div class="Aligner-item">
-          <p>&ldquo;We are what we pretend to be, so we must be careful about what we pretend to be&rdquo;
-            <cite>- Kurt Vonnegut, Jr.</cite>
-          </p>
-        </div>
-      </div>
-    </div>
-  
-    <div class="grid-flex">
-      <div class="col col-image" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/280406/madison-rainbow.jpg);">
-        &nbsp;
-      </div>
-      <div class="col col-text">
-        <div class="Aligner-item">
-          <p>&ldquo;Perfect is the enemy of good.&rdquo;
-            <cite> - Voltaire</cite>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-</body>
+
+
+<div class="menubar">
+  <h3><a href="index.html"><img src="images/logo.png"></a></h3>
+</div>
+ <!-- <span id="close"> <img src="images/heroimage.jpeg" alt="CLOSE"> </img> </span> -->
+<span id="hamburger"> <img src="images/hamburger_menu.png" alt="HamburgerMenu"> </span>
+<nav>
+  <ul>
+    <li> <a href="bedroom.html"> Bedroom </a> </li>
+    <li> <a href="#"> Dining Room </a> </li>
+    <li> <a href="#"> Home Office </a> </li>
+    <li> <a href="#"> Living Room </a> </li>
+    <li> <a href="#"> Outdoor </a> </li>
+    <li> <a href="#"> Accessories </a> </li>
+    <li> <a href="#cart"><img src="images/shopping_cart.png"></a> </li>
+    <li> <a href="#search"><img src="images/search_icon.png"></a> </li>
+  </ul>
+</nav>
+
+
+
+<div class="overlay overlay-hugeinc">
+  <label for="op"></label>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">Clients</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</div>
 </html>
