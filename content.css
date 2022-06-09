@@ -1,39 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
 
-#footer {
+.footer {
     background-color: #000000;
-    padding: 30px;
-    font-family: "Chivo", sans-serif;
-    font-size: 15px;
-    text-align: center;
+    padding: 50px;
+    display: flex;
 }
 
-#email form input {
+
+/* aligning for divs */
+.footer div{
+    text-align: left;
+    flex-grow: 3;
+}
+
+.footer div h3{
+    color: #ffffff;
     font-family: "Chivo", sans-serif;
-    font-size: 13px;
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+
+
+/* styling links */
+.footer div a {
+    font-family: "Chivo-Light", sans-serif;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+/* styling the email form */
+
+.column1 form input {
+    font-family: "Chivo", sans-serif;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 8px;
     padding-right: 8px;
     color: white;
-    text-align: center;
     background-color: black;
     border-color: white;
     border-style: solid;
     border-width: 1px;
+    width: 200px;
 
 }
 
-#email form input:hover, form input:active {
-    background-color: white;
+/* submit button style */
+.column1 form button {
+    font-family: "Chivo", sans-serif;
+    width: 200px;
+    margin-top: 8px;
+    padding: 5px 5px 8px 8px;
     color: black;
-  }
-.icons {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
 }
+
+.column1 p img{
+    margin-top: 40px;
+    max-width: 200px;
+}
+
+.column3 p{
+    font-family: "Chivo-Light", sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+
+
 
 /* bedroom listing */
 

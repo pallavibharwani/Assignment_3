@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
 
-/* this css file is only for the top header portion */
+/* this css file is only for the top header portion and footers */
 
 body {
     background-color: #000000;
@@ -37,7 +37,7 @@ body {
   
  
 
-
+/* logo size */
   .menubar h3 img{
       width: 210px;
       height: 60px;
@@ -50,12 +50,12 @@ body {
     display: none;
   }
   
-  #close {
+  /* #close { 
       position: absolute;
       top: 17px;
       right: 20px;
       display: none;
-  }
+   } */
   
   nav ul {
     display: block;
@@ -69,8 +69,7 @@ body {
     list-style-type: none;
     float: left;
     text-align: center;
-    padding: 10px;
-    font-family: 'Roboto', Helvetica, sans-serif;
+    padding: 10px; 
     font-size: 17px;
   }
   
@@ -213,118 +212,5 @@ body {
   /*Hero Image*/
 
 
-
-
-
-
-/* old stuff 
-.menubar{
-    background-color: transparent;
-    text-align: center;
-}
-
-.header_container{
-    background-image: url("images/heroimage.jpeg");
-    background-position: center;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-
-.menubar a {
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: "Chivo", sans-serif;
-    padding: 20px 16px;
-
-}
-
-
-.image_container a{
-    display: flex;  
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 13pt;
-    color: #000000;
-    text-decoration: none;
-    font-family: "Chivo", sans-serif;
-    width: 180px;
-    
-}
-
-.browse_furniture_btn{
-    display:block;  
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "Chivo", sans-serif;
-    color: #000000;
-    text-decoration: none;
-    width: 180px;
-    font-size: 30px;
-    border: 4px;
-    background-color: #ffffff;
-    border-color: #ffffff;
-    padding: 15px;
-
-} */
-
-
-/* hover effect, changes button color */
-/* .browse_furniture_btn:hover, .browse_furniture_btn:active { 
-    background-color: #000000;
-    /* border: 2px solid; */
-    /* outline: #ffffff; */
-    /* outline-width: 4px; */
-    /* border-color: #ffffff; */
-    /* color: #ffffff; */
-    /* transition: background-color 0.2s ease-in, color 0.2s ease-in; *
-
-
-
-
-
-/* product listings page */
-
-
-/* .bedroom_header{ 
-    display: block;
-    background-image: url("images/bedroom_header.jpeg");
-    background-position: center;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;}
-
-
-.product_grid {
-    font-family: "Chivo", sans-serif;
-    padding: 16px;
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 16px 20px;
-    grid-auto-flow: row;
-    position: absolute;
-      }
-      
- 
-
-/* .product_grid col { 
-    display: grid;
-    background-color: black;
-    margin-bottom: 16px;
-    padding: 16px;
-    size: 10vh;
-    min-height: 0;
-    min-width: 0;
-}*/
-
-/* .product_grid img { 
-    object-fit: contain;} */
 
 
