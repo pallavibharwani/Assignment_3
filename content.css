@@ -1,7 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
 
 
-/* bedroom listing */
+
+/* HOMEPAGE */
+
+/* css for gift cards item */
+
+
+  .flex_grid {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .columns {
+      box-flex: 1;
+      flex: 1;
+  }
+  
+  .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+  }
+  .text_container {
+      width: 60%;
+      font-family: "Chivo", sans-serif;
+      color: #ffffff;
+  }
+
+  .text_container button {
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    color: black;
+    font-family: "Chivo", sans-serif;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 35px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.2s ease-in-out;
+    transition: color 0.2 ease-in-out;
+  }
+  
+
+  .text_container button:hover, button:active {
+    background-color: black;
+    color: white;
+  }
+
+  .item_image {
+    background-size: cover;
+    background-position:center;
+  }
+
+  .item_image img {
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    padding: 0;
+  }
+
+
+  @media (max-width: 640px) {
+    .flex_grid {
+      height: 40em;
+      display: -webkit-flex;
+      -webkit-flex-direction: column;
+      flex-direction: column; 
+     }
+    .columns {
+      order:vertical;
+    }
+   
+    .text div p {
+      padding: 1em;
+    }
+    .text_container {
+      width: 90%;
+    }
+  }
+
+
+
+
+
+/* BEDROOM LISTING PAGE */
 
 .title h1{
     background-color: #E8E8E8;
