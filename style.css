@@ -74,9 +74,16 @@ body {
   }
   
   nav ul li a {
-      font-family: "Chivo", sans-serif;
+    font-family: "Chivo", sans-serif;
     text-decoration: none;
     color: white;
+  }
+
+  nav ul li a img {
+    width: 100%;
+    max-width: 30px;
+    padding: 0%;
+
   }
   
   @media screen and (max-width: 617px) {
@@ -209,7 +216,135 @@ body {
       font-size: 18px;
     }
   }
-  /*Hero Image*/
+
+
+/* website values footer */
+.web_values {
+  background-color: #e8e8e8;
+  display: flex;
+  
+
+}
+
+.web_values div {
+  text-align: center;
+  flex-grow: 2;
+
+}
+
+.web_values div h2 {
+  margin-top: 5%;
+  font-family: "Chivo", sans-serif;
+  margin-bottom: 5%;
+}
+
+.web_values div img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  justify-content: center;
+}
+
+
+ /*footer*/
+
+.footer {
+    background-color: #000000;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* aligning for divs */
+.footer div{
+    text-align: left;
+    flex-grow: 3;
+}
+
+.footer div h3{
+    color: #ffffff;
+    font-family: "Chivo", sans-serif;
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+
+
+/* styling links */
+.footer div a {
+    font-family: "Chivo-Light", sans-serif;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+/* styling the email form */
+
+.column1 form input {
+    font-family: "Chivo", sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    width: 200px;
+
+}
+
+/* submit button style */
+.column1 form button {
+    font-family: "Chivo", sans-serif;
+    width: 200px;
+    margin-top: 8px;
+    padding: 5px 5px 8px 8px;
+    color: black;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
+}
+
+.column1 p img{
+    margin-top: 40px;
+    max-width: 200px;
+}
+
+.column3 p{
+    font-family: "Chivo-Light", sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 676px) {
+  .column1 form button {
+    font-size: 14px;
+    width: 95%;
+    height: 95%;
+  }
+
+  .column1 form input {
+    font-size: 14px;
+    width: 95%;
+    height: 95%;
+  }
+
+  .footer div h3 {
+    font-size: 15px;
+  }
+}
+  
+
+
+
 
 
 
