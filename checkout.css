@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+body {
+    background: #000000;
+    font-family: "Chivo", sans-serif;
+  }
+  
+/* size of the form */
+  #myform {
+    margin: 50px auto;
+    width: 65%;
+  }
+  
+/* header styling - shipping address */
+  header {
+    color: #ffffff;
+    font-size: 1.7em;
+    padding: 3% 0;
+    border-bottom: 2px solid #e8e8e8;
+  }
+  
+
+  .container {
+    color: #ffffff;
+    width: 100%;
+    margin: 40px 0;
+  }
+  
+  
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    color: #ffffff;
+    display: table-row-group;
+    transition: all 0.3s ease;
+    font-size: 1.05em;
+    margin-top: 1%;
+  }
+  
+  ::placeholder {
+      font-family: "Chivo", sans-serif;
+  }
+  input:focus {
+    outline: none !important;
+    border-color: #ffffff;
+  }
+  
+  input:focus + label {
+    color: #69b692;
+  }
+  
+  .form_row {
+    margin: 20px 0;
+    width: 100%;
+    padding: 0;
+    display: table;
+  }
+  
+  .column {
+    display: table;
+    width: 47%;
+    float: left;
+  }
+  
+  .column:nth-child(2) {
+    float: right;
+    display: table;
+  }
+  
+  
+  .btn {
+    width: 50%;
+    font-family: "Chivo", sans-serif;
+    font-size: 1.0em;
+    transition: all 0.3s ease;
+    float: right;
+
+  }
+  
+  .btn:hover {
+    background: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+    cursor: pointer;
+  }
+  
+
+
+  @media screen and (max-width: 800px) {
+    #myform {
+    margin: 50px auto;
+    width: 80%; }
+    
+    .column {
+    display: table;
+    width: 100%;
+    float: left;
+  }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #myform {
+    margin: 50px auto;
+    width: 100%;
+  }
+   
+  }
+  
+  
+/* PAYMENT PAGE */
+/* size of the form */
+#payment_form {
+    margin: 50px auto;
+    width: 65%;
+  }
+  
+/* header styling - shipping address */
+  header {
+    color: #ffffff;
+    font-size: 1.7em;
+    padding: 3% 0;
+    border-bottom: 2px solid #e8e8e8;
+  }
+  
+
+  .container {
+    color: #ffffff;
+    width: 100%;
+    margin: 40px 0;
+  }
+  
+  
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    color: #ffffff;
+    display: table-row-group;
+    transition: all 0.3s ease;
+    font-size: 1.05em;
+    margin-top: 1%;
+  }
+  
+  ::placeholder {
+      font-family: "Chivo", sans-serif;
+  }
+  input:focus {
+    outline: none !important;
+    border-color: #ffffff;
+  }
+  
+  input:focus + label {
+    color: #69b692;
+  }
+  
+  .form_row {
+    margin: 20px 0;
+    width: 100%;
+    padding: 0;
+    display: table;
+  }
+  
+  .column {
+    display: table;
+    width: 47%;
+    float: left;
+  }
+  
+  .column:nth-child(2) {
+    float: right;
+    display: table;
+  }
+  
+  
+  .btn {
+    width: 50%;
+    font-family: "Chivo", sans-serif;
+    font-size: 1.0em;
+    transition: all 0.3s ease;
+    float: right;
+
+  }
+  
+  .btn:hover {
+    background: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+    cursor: pointer;
+  }
+  
+
+
+  @media screen and (max-width: 800px) {
+    #myform {
+    margin: 50px auto;
+    width: 80%; }
+    
+    .column {
+    display: table;
+    width: 100%;
+    float: left;
+  }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #myform {
+    margin: 50px auto;
+    width: 100%;
+  }
+   
+  }
+  
+
+
+  /* ORDER CONFIRMATION PAGE */
+  #order_confirmation {
+    margin: 50px auto;
+    width: 65%;
+  }
+
+  .info_container h2{
+      font-family: "Chivo", sans-serif;
+      color: #ffffff;
+  }
+
+  .info_container p{
+    font-family: "Chivo", sans-serif;
+    color: #ffffff;
+}
+
+  .info_container img{
+      max-width: 100px;
+      display: flex;
+      margin: auto;
+  }
+
+  .buttons {
+      width: 50%;
+      background: #000000;
+      font-family: "Chivo", sans-serif;
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      font-size: 1.0em;
+      transition: background-color 0.2s ease-in-out;
+      transition: color 0.2s ease-in-out;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    .buttons:hover, button:active {
+        background-color: #ffffff;
+        color: #000000;
+      }
+
+
+    
+      
+      
+    
+
