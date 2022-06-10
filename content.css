@@ -50,7 +50,6 @@
     transition: color 0.2 ease-in-out;
   }
   
-
   .text_container button:hover, button:active {
     background-color: black;
     color: white;
@@ -68,7 +67,6 @@
     max-width: 700px;
     padding: 0;
   }
-
 
   @media (max-width: 640px) {
     .flex_grid {
@@ -109,6 +107,124 @@
     font-family: "Chivo", sans-serif;
     font-size: 20px;
     text-align: center;
+}
+
+
+
+
+/* BED PRODUCT PAGE */
+.product_container {
+  display: inline-block;
+  padding: 5%;
+  align-items: center;
+  margin: auto;
+  box-sizing: border-box;
+
+}
+
+.card {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+
+
+}
+
+.card_container {
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  font-family: "Chivo", sans-serif;
+  color: #ffffff;
+  padding-left: 4%;
+  display: inline-block;
+}
+
+.card_container p {
+  padding-top: 10%;
+}
+
+.card img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+
+}
+.card_container button {
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    color: black;
+    font-family: "Chivo", sans-serif;
+    margin-top: 10%;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 35px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.2s ease-in-out;
+    transition: color 0.2 ease-in-out;
+}
+
+.card_container button:hover, button:active {
+  background-color: black;
+  color: white;
+}
+
+
+/* add to cart notif */
+.notification_close {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #afff64b6;
+  overflow: hidden;
+  display:none;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;}
+
+  &__container_notif p {
+    font-size: 1.0rem;
+    font-family: "Chivo", sans-serif;
+    margin: 1rem;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  &__notification_close img {
+    background-color: #8ad345;
+    max-width: 3rem;
+    padding: 1rem;
+    display: flex;
+    cursor: pointer;
+    float: right;
+  
+  }
+
+  &-show {
+    animation: alert 400ms ease-in-out forwards;
+    display: flex;
+  }
+
+
+
+@keyframes alert {
+  0%{
+    opacity:0%;
+    top: 0%;
+  }
+  5%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+    top: 2rem;
+  }
 }
 
 
