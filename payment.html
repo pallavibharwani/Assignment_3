@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="checkout.css">
+    <script src="carol-house-furniture-workspace.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="payment_form">
+        <header> Payment Method</header>
+        <div class="container">
+        
+            <!-- Card number -->
+          <div class="form_row">
+            <div class="column">
+              <input type="text" name="firstname" placeholder="Card Number">
+            </div>
+            
+            <div class="column">
+              <input type="text" name="lastname" placeholder="Expiration Date (mm/yy)">
+            </div>
+          </div>
+        
+          <!-- card holder name -->
+          <div class="form_row">
+            <div class="column">
+              <input type="text" name="firstname" placeholder="Name">
+            </div>
+            
+            <!-- cvv number -->
+            <div class="column">
+              <input type="text" name="lastname" placeholder="cvv">
+            </div>
+
+        <div class="form_row">
+            <input type="button" value="Checkout" class="btn" onclick="forward()">
+            <script>
+                function forward(){
+                document.location.href = "confirmation.html";
+                }
+            </script>
+            <input type="button" value="Back" class="btn" onclick="back()">
+            <script>
+                function back(){
+                document.location.href = "checkout.html";
+                }
+            </script>
+            </div>
+        </form>
+</body>
+</html>
